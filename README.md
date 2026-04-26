@@ -32,7 +32,7 @@ Commands and information
 - [VLANs](switch/vlan.md)
 
 ## Multilayer
-- [Basic commands](swith/basic-cmd.md)
+- [Basic commands](multilayer/basic-cmd.md)
 
 ## Router
 - [IPv4 Header](router/ipv4-header.md)
