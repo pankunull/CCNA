@@ -4,19 +4,6 @@ The pipe (`|`) operator allows you to filter, search, and manipulate command out
 
 NOTE: filters are case-sensitive.
 
-## Basic Syntax
-
-```
-<command> | <filter>
-```
-
-Example:
-```
-show running-config | include hostname
-```
-
-## Core Pipe Filters
-
 ## include
 
 Displays only lines that match a given pattern.
@@ -62,8 +49,6 @@ Counts the number of matching lines.
 ```
 show running-config | include interface | count
 ```
-
-## Pattern Matching Tricks
 
 ## Match Exact Words (avoid partial matches)
 
