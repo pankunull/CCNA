@@ -1,6 +1,6 @@
 # Password
 
-### Encrypted global configuration password
+## Encrypted global configuration password
 
 Configure MD5 encrypted password.
 
@@ -8,7 +8,7 @@ Configure MD5 encrypted password.
 Cisco(config)# enable secret 5 <password>
 ```
 
-### Username and Password
+## Username and Password
 
 To enable local login authentication, configure the console line:
 
@@ -18,7 +18,7 @@ Cisco(config)#username <user> secret <password>
 Cisco(config-line)#login local
 ```
 
-### Console port password
+## Console port password
 
 ```
 Cisco(config)# service password-encryption
@@ -27,7 +27,7 @@ Cisco(config-line)# password <password>
 Cisco(config-line)# login
 ```
 
-### Type 8 (recommended)
+## Type 8 (recommended)
 
 One-way SHA256 hash.
 

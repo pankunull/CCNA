@@ -1,18 +1,18 @@
 # Configs
 
-### Write current settings in memeory
+## Write current settings in memeory
 
 ```
 Cisco#wr mem
 ```
 
-### Running config
+## Running config
 
 ```
 Cisco#sh run
 ```
 
-### Startup config
+## Startup config
 
 ```
 Cisco#sh star
