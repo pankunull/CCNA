@@ -1,5 +1,5 @@
 # Ethernet Frame
 
-![Ethernet frame (Wikipedia)](ethernet-frame.png)
+![Ethernet frame (Wikipedia)](images/ethernet-frame.png)
 
 
