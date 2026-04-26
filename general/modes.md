@@ -1,6 +1,6 @@
 # Modes
 
-### User EXEC mode
+## User EXEC mode
 
 Limited mode.
 
@@ -8,7 +8,7 @@ Limited mode.
 Cisco>
 ```
 
-### Privileged EXEC Mode
+## Privileged EXEC Mode
 
 Provides privilege access to view configurations, restart, etc...
 
@@ -17,7 +17,7 @@ Cisco>en
 Cisco#
 ```
 
-### Global Configuration mode
+## Global Configuration mode
 
 Can change configurations.
 
