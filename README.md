@@ -32,7 +32,7 @@ Commands and information
 
 ## Router
 - [IPv4 Header](router/ipv4-header.md)
-- [Route table](router/route-table.md)
+- [Basic commands](router/basic-cmd.md)
 - [Static route](route/static-route.md)
 - [Dynamic routing](route/dynamic-routing.md)
 - [Routing protocols](route/routing-protocols.md)
