@@ -2,7 +2,9 @@
 
 ### User EXEC mode
 
-`Cisco>`
+```
+Cisco>
+```
 
 ### Privileged EXEC Mode
 
