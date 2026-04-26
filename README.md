@@ -31,6 +31,9 @@ Commands and information
 - [Root bridge](switch/root-bridge.md)
 - [VLANs](switch/vlan.md)
 
+## Multilayer
+- [Basic commands](swith/basic-cmd.md)
+
 ## Router
 - [IPv4 Header](router/ipv4-header.md)
 - [Basic commands](router/basic-cmd.md)
