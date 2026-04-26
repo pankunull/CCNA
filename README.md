@@ -19,6 +19,7 @@ CLI and information
   - [Console](general/console.md)
 - Interfaces
   - [Shutdown](general/shutdown.md)
+- [Configs](general/configs.md)
 
 ## Switch
 - [Ethernet Frame](switch/ethernet-frame.md)
