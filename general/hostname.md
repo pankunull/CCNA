@@ -1,3 +1,5 @@
 # Hostname
 
-`Switch(config)#hostname <name>`
+```
+Switch(config)#hostname <name>
+```
