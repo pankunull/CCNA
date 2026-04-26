@@ -1,9 +1,8 @@
 # Password
 
-
 ### Encrypted global configuration password
 
-MD5
+Configure MD5 encrypted password.
 
 ```
 Cisco(config)# enable secret 5 <password>
@@ -30,7 +29,7 @@ Cisco(config-line)# login
 
 ### Type 8 (recommended)
 
-One-way SHA256 hash
+One-way SHA256 hash.
 
 ```
 Cisco(config)#enable algorithm-type sha256 secret <password>
