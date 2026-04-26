@@ -1,14 +1,17 @@
 # Modes
 
 User EXEC mode
-```Cisco>```
+
+`Cisco>`
 
 Privileged EXEC Mode
-```Cisco>enable``` or ```Cisco>en```
-```Cisco#`
+
+`Cisco>enable` or `Cisco>en`
+`Cisco#`
 
 Global Configuration mode
-```Cisco>enable```
-```Cisco#configure terminal``` or ```Cisco#conf t```
-```Cisco(config)#```
+
+`Cisco>enable`
+`Cisco#configure terminal` or `Cisco#conf t`
+`Cisco(config)#`
 
