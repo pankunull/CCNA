@@ -1,19 +1,37 @@
-# CCNA
+# CCNA Navigation System
 CLI and information
 
-## Layer 2 Features
+## Protocols and Standard
+- [OSI](prot-std/osi.md)
+- [TCP/IP](prot-std/tcp-ip.md)
+- [Encapsulation & Decapsulation](proc-std/enc-dec.md)
+- [PDU](prot-std/pdu.md)
 
-- Spanning Tree Protocol (STP)
-  → [Setup STP](../SWITCH/stp.md)
+## General configuration
+- Connection
+  - [Remote](general/remote.md)
+  - [Serial](general/serial.md)
+- [Modes](general/modes.md)
+- [Hostname](general/hostname.md)
+- Authentication
+  - [Password](general/password.md)
+  - [Username](general/username.md)
+  - [Console](general/console.md)
+- Interfaces
+  - [Shutdown](general/shutdown.md)
 
-- Port Configuration
-  → [Configure Ports](../SWITCH/port-configuration.md)
+## Switch
+- [Ethernet Frame](switch/ethernet-frame.md)
+- [STP](switch/stp.md)
+- [RSTP](switch/rstp.md)
+- [Root port](switch/rQoot-port.md)
+- [Root bridge](switch/root-bridge.md)
+- [VLANs](switch/vlan.md)
 
-- VLANs
-  → [VLAN Setup](../SWITCH/vlan.md)
+## Router
+- [IPv4 Header](router/ipv4-header.md)
+- [Route table](router/route-table.md)
+- [Static route](route/static-route.md)
+- [Dynamic routing](route/dynamic-routing.md)
+- [Routing protocols](route/routing-protocols.md)
 
----
-
-## Verification & Troubleshooting
-
-- [Show Commands](../COMMANDS/show_commands.md)
