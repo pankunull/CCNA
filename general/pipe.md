@@ -2,8 +2,6 @@
 
 The pipe (`|`) operator allows you to filter, search, and manipulate command output directly on the device. It is essential for working efficiently with large outputs like `show running-config`.
 
----
-
 ## Basic Syntax
 
 ```
@@ -14,8 +12,6 @@ Example:
 ```
 show running-config | include hostname
 ```
-
----
 
 ## Core Pipe Filters
 
@@ -33,8 +29,6 @@ Multiple patterns (OR logic):
 show running-config | include hostname|interface|router
 ```
 
----
-
 ### 2. exclude
 
 Removes lines that match a pattern.
@@ -43,8 +37,6 @@ Removes lines that match a pattern.
 show running-config | exclude shutdown
 show running-config | exclude !
 ```
-
----
 
 ### 3. begin
 
@@ -55,8 +47,6 @@ show running-config | begin interface GigabitEthernet0/0
 ```
 
 Useful for jumping directly into sections.
-
----
 
 ### 4. section
 
@@ -69,8 +59,6 @@ show running-config | section router ospf
 
 More powerful than `include` because it returns full configuration blocks.
 
----
-
 ### 5. count
 
 Counts the number of matching lines.
@@ -79,8 +67,6 @@ Counts the number of matching lines.
 show running-config | include interface | count
 ```
 
----
-
 ## Pattern Matching Tricks
 
 ### Multiple Matches (OR)
@@ -88,8 +74,6 @@ show running-config | include interface | count
 ```
 show running-config | include hostname|interface|router
 ```
-
----
 
 ### Match Exact Words (avoid partial matches)
 
@@ -101,8 +85,6 @@ show running-config | include ^interface
 
 (Note: Support depends on platform/version)
 
----
-
 ### Case Sensitivity
 
 Filters are case-sensitive.
@@ -111,8 +93,6 @@ Filters are case-sensitive.
 include hostname   ← works
 include Hostname   ← no match
 ```
-
----
 
 ## Chaining Pipes
 
@@ -124,8 +104,6 @@ show running-config | include interface | exclude shutdown
 
 Order matters (left → right processing).
 
----
-
 ## Useful Real-World Examples
 
 ### Find active interfaces only
@@ -133,56 +111,40 @@ Order matters (left → right processing).
 show ip interface brief | include up
 ```
 
----
-
 ### Show all configured interfaces with details
 ```
 show running-config | section interface
 ```
-
----
 
 ### Remove noise (comments and empty lines)
 ```
 show running-config | exclude !
 ```
 
----
-
 ### Find specific IP addresses
 ```
 show running-config | include 192.168.
 ```
-
----
 
 ### Count number of interfaces
 ```
 show running-config | include ^interface | count
 ```
 
----
-
 ### Show only OSPF configuration
 ```
 show running-config | section router ospf
 ```
-
----
 
 ### Find shutdown interfaces
 ```
 show running-config | include shutdown
 ```
 
----
-
 ### Show lines after a match (manual context via begin)
 ```
 show running-config | begin router bgp
 ```
-
----
 
 ## Limitations
 
@@ -191,24 +153,3 @@ show running-config | begin router bgp
 - Output is line-based (no true parsing)
 - Case-sensitive matching
 
----
-
-## Pro Tips
-
-- Use `section` instead of `include` when you need full configs
-- Use `exclude !` to clean output quickly
-- Combine filters to simulate AND logic
-- Always think in **line filtering**, not structured parsing
-- Pipe is critical in exams when dealing with large configs
-
----
-
-## Mental Model
-
-- `include` → keep matching lines  
-- `exclude` → remove matching lines  
-- `begin` → jump to match  
-- `section` → grab full block  
-- `count` → quantify  
-
-Think of pipe as a **post-processing filter for CLI output**.
