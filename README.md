@@ -1,5 +1,5 @@
-# CCNA Navigation System
-CLI and information
+# CCNA Resoufces
+Commands and information
 
 ## Protocols and Standard
 - [OSI](prot-std/osi.md)
