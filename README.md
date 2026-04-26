@@ -12,6 +12,7 @@ CLI and information
   - [Remote](general/remote.md)
   - [Serial](general/serial.md)
 - [Modes](general/modes.md)
+- [Disable configuration](general/disable.md)
 - [Hostname](general/hostname.md)
 - Authentication
   - [Password](general/password.md)
