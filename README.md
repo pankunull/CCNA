@@ -25,7 +25,7 @@ Commands and information
 ## Switch
 - [Ethernet Frame](switch/ethernet-frame.md)
 - [Basic commands](switch/basic-cmd.md)
-- [Etherchannel(switch/etherchannel.md)
+- [Etherchannel](switch/etherchannel.md)
 - [STP](switch/stp.md)
 - [RSTP](switch/rstp.md)
 - [Root port](switch/rQoot-port.md)
