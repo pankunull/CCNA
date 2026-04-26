@@ -19,8 +19,7 @@ CLI and information
   - [Password](general/password.md)
   - [Username](general/username.md)
   - [Console](general/console.md)
-- Interfaces
-  - [Shutdown](general/shutdown.md)
+  - [Interfaces](general/interfaces.md)
 - [Configurations](general/configs.md)
 
 ## Switch
