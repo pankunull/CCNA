@@ -7,7 +7,7 @@ CLI and information
 - [Encapsulation & Decapsulation](proc-std/enc-dec.md)
 - [PDU](prot-std/pdu.md)
 
-## General configuration
+## General
 - Connection
   - [Remote](general/remote.md)
   - [Serial](general/serial.md)
@@ -20,7 +20,7 @@ CLI and information
   - [Console](general/console.md)
 - Interfaces
   - [Shutdown](general/shutdown.md)
-- [Configs](general/configs.md)
+- [Configurations](general/configs.md)
 
 ## Switch
 - [Ethernet Frame](switch/ethernet-frame.md)
