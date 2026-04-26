@@ -13,6 +13,7 @@ CLI and information
   - [Serial](general/serial.md)
 - [Modes](general/modes.md)
 - [Disable configuration](general/disable.md)
+- [Pipe](general/pipe.md)
 - [Hostname](general/hostname.md)
 - Authentication
   - [Password](general/password.md)
