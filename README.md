@@ -32,7 +32,7 @@ Commands and information
 - [Root bridge](switch/root-bridge.md)
 - [VLANs](switch/vlan.md)
 
-## Multilayer
+## Multilayer Switch
 - [Basic commands](multilayer/basic-cmd.md)
 
 ## Router
